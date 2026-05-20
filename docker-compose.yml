@@ -15,7 +15,7 @@ services:
       - afetto-network
 
   afetto-api:
-    image: iagoliziero/afetto-api:v1.0
+    image: iagoliziero/afetto-api:v1.1
     container_name: afetto-api
     restart: always
     environment:
